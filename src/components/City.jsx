@@ -36,7 +36,7 @@ function City() {
         <>
             <div>
                 <button className='btn' onClick={() => { fetchCountry() }}>City</button>
-                {city && city.map((country, index) => {
+                {city && city.map((city, index) => {
                     return (
                         <div className='cityElement' key={index}>
                             <p>City:{city.city}</p>
