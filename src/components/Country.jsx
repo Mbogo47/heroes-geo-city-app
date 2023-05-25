@@ -39,7 +39,7 @@ function Country() {
 
     return (
         <>
-            <div>
+            <div className='main-container'>
                 <button className='btn' onClick={() => { fetchCountry() }}>Country</button>
                 {country && country.map((country, index) => {
                     return (

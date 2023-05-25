@@ -33,7 +33,7 @@ function Places() {
 
     return (
         <>
-            <div>
+            <div className='main-container'>
                 <button className='btn' onClick={() => { fetchPlaces() }}>Places</button>
                 {places && places.map((places, index) => {
                     return (

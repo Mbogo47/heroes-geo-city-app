@@ -36,7 +36,7 @@ function Currency() {
         <>
 
 
-            <div>
+            <div className='main-container'>
                 <button className='btn' onClick={() => { fetchCurrencies() }}>Currency</button>
                 {currency && currency.map((currency, index) => {
                     return (
