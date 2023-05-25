@@ -7,7 +7,7 @@ function Title() {
         <>
             <div className="title">
                 <div className='buttons'>
-                    <Link to='/about' className="link">
+                    <Link to='/' className="link">
                         <button className='btn'><span>Geo city app</span></button>
                     </Link>
                     <Link to='/about' className="link">

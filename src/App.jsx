@@ -6,6 +6,7 @@ import Country from './components/Country';
 import Title from './components/Title';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
+import Mainpage from './components/Mainpage';
 
 
 function App() {
@@ -13,18 +14,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Title />
         <Routes>
-          <Route path='/' element={<Title />} />
+          <Route path='/' element={<Mainpage />} />
           <Route path='/about' element={<About />} />
         </Routes>
-        <div className='main'>
-          <City />
-          <Currency />
-          <Places />
-          <Country />
-        </div>
       </BrowserRouter>
 
+      {/* <Mainpage /> */}
     </>
   );
 }

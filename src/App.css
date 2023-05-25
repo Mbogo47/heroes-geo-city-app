@@ -124,6 +124,12 @@ span:hover {
 .about p{
     padding: 20px;
         margin: 10px;
+        font-size: 16px;
+        font-family: sans-serif;
+        letter-spacing: 0.5px;
+}
+.about p:hover{
+color: lightseagreen;
 }
 
 .main-container{
@@ -140,4 +146,11 @@ span:hover {
         cursor: pointer;
         transition: background-color 0.3s;
         margin-bottom: 10%;
+        
+}
+.btn_1:hover{
+    background-color: lightseagreen;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+
 }
